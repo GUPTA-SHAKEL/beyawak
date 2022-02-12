@@ -7,7 +7,7 @@ def x(t):
 	v = raw_input(t)
 
 	return str(v)
-
+os.system('clear')
 def main_menu():
 	x("\n"+box("+",h)+"press enter to return ")
 	os.system(sys.executable+" "+sys.argv[0])
