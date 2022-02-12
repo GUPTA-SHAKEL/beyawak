@@ -1,4 +1,3 @@
-os.system('clear')
 import sys,os
 from module.file import *
 from module.sc import *
@@ -11,7 +10,7 @@ def x(t):
 def main_menu():
 	x("\n"+box("+",h)+"press enter to return ")
 	os.system(sys.executable+" "+sys.argv[0])
-
+os.system('clear')
 def main():
 	print "                       ___ "
 	print "         /)        ,-^     ^-. "
